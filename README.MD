@@ -165,7 +165,7 @@ cd AffineArt
 ### Create a virtual environment
 
 ```bash
-python -m venv venv
+py -3.12 -m venv venv
 ```
 
 Activate it:
