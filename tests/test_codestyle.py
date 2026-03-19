@@ -27,13 +27,13 @@ def test_codestyle(py_file):
     disabled_rules = [
         "C0114",  # Missing module docstring
         "C0116",  # Missing function docstring
-        "C0103",  # Invalid constant name (разрешено правилами: krátké názvy)
-        "C0301",  # Line too long (разрешено правилами: dlouhé řádky)
+        "C0103",  # Invalid constant name
+        "C0301",  # Line too long
         "E0401",  # Import errors
-        "E1101",  # Module 'cv2' has no member (разрешено: 3rd party libs)
+        "E1101",  # Module 'cv2' has no member
         "W0718",  # Broad exception caught
-        "R0903",  # Too few public methods (для dataclasses)
-        "W0621",  # Redefining name from outer scope (конфликт с pytest fixtures)
+        "R0903",  # Too few public methods
+        "W0621",  # Redefining name from outer scope
     ]
 
     if "app.py" in py_file:

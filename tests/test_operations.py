@@ -69,7 +69,7 @@ def test_to_sepia(sample_img):
 
 def test_detect_edges(sample_img):
     res = detect_edges(sample_img, {"threshold1": 100, "threshold2": 200})
-    assert len(res.shape) == 3  # 3 канала для UI
+    assert len(res.shape) == 3
     with pytest.raises(ValueError):
         detect_edges(sample_img, {"threshold1": -1, "threshold2": 100})
 
