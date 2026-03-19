@@ -126,7 +126,7 @@ Instead, it inspects each registered operation and builds widgets dynamically
 ## 🛠️ Architecture
 
 ```text
-BI-PYT-SW/
+AffineArt/
 ├── app.py                  # Presentation layer (Streamlit UI)
 ├── requirements.txt        # Project dependencies
 ├── core/                   # Business logic layer
