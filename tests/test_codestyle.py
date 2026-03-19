@@ -43,7 +43,7 @@ def test_codestyle(py_file):
                 "R0914",  # Too many locals
                 "R0915",  # Too many statements
                 "R0912",  # Too many branches
-                "W0106",  # Expression not assigned (st.write и т.д.)
+                "W0106",  # Expression not assigned (st.write)
                 "C0413",  # Import should be at top
             ]
         )
